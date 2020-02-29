@@ -1,0 +1,55 @@
+body {
+  background: #0E1419;
+  color: #4C6B8A;
+  font-family: mono;
+  margin: 0 auto;
+  max-width: 50em;
+  max-height: 80em;
+  line-height: 1.5;
+  overflow-x: hidden; 
+  overflow-y: auto;
+}
+
+h1,
+h2,
+strong {
+  color: #7B8CDE;
+  margin-top: 1em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+a {
+  color: #FF287F;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  transition-property: font-size;
+}
+
+a:hover {	
+
+      font-size: 16px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+.center img{
+  transition: linear 0.2s;
+	    
+}
+
+
+.center img:hover{
+  filter: hue-rotate(270deg);
+  transform: translateY(-2pt); 
+}
